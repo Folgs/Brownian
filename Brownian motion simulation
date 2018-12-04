@@ -1,0 +1,4 @@
+T=1; N=1000;dt=T/N;
+dW = sqrt(dt)*rnorm(N)
+W = cumsum(dW)
+plot(W,type="l")
